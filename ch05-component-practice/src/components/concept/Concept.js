@@ -1,7 +1,7 @@
 import Card from "../ui/Card";
-import "./Concepts.css";
+import "./Concept.css";
 
-const Concepts = (props) => {
+const Concept = (props) => {
   const title = props.concept.title;
   const image = props.concept.image;
   const description = props.concept.description;
@@ -15,4 +15,4 @@ const Concepts = (props) => {
   );
 };
 
-export default Concepts;
+export default Concept;
